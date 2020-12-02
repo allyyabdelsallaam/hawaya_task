@@ -5,13 +5,18 @@ import {
   ScrollView,
   View,
   Text,
-  StatusBar,
+  StatusBar
 } from 'react-native';
 import { MainNavigation } from './src/Navigation/MainNavigation/MainNavigation';
 
 const App: () => React$Node = () => {
   return (
-    <MainNavigation />
+    <>
+      <StatusBar barStyle="dark-content" backgroundColor="transparent" />
+      <SafeAreaView style={{ flex: 1, backgroundColor: 'transparent' }} forceInset={{ top: 'always' }} >
+        <MainNavigation />
+      </SafeAreaView>
+    </>
   )
 }
 
