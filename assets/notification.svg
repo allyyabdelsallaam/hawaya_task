@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewbox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient gradientUnits="objectBoundingBox" cx="79.17097%" cy="84.82113%" fx="79.17097%" fy="84.82113%" r="89.52786%" gradientTransform="translate(0.79170966,0.8482113),rotate(27.919127),scale(1,0),translate(-0.79170966,-0.8482113)" id="gradient_1">
+      <stop offset="0%" stop-color="#00EAAC" />
+      <stop offset="0%" stop-color="#00EAAE" />
+      <stop offset="100%" stop-color="#00DEEB" />
+    </radialGradient>
+  </defs>
+  <g id="Primitives-Icons-iconPreferences">
+    <path d="M4.5 6.85506C5.94574 6.42479 7 5.08551 7 3.5C7 1.567 5.433 0 3.5 0C1.567 0 0 1.567 0 3.5C0 5.08551 1.05426 6.42479 2.5 6.85506L2.5 17.5C2.5 18.0523 2.94772 18.5 3.5 18.5C4.05228 18.5 4.5 18.0523 4.5 17.5L4.5 6.85506ZM12.5 12.1449L12.5 1.5C12.5 0.947715 12.9477 0.5 13.5 0.5C14.0523 0.5 14.5 0.947715 14.5 1.5L14.5 12.1449C15.9457 12.5752 17 13.9145 17 15.5C17 17.433 15.433 19 13.5 19C11.567 19 10 17.433 10 15.5C10 13.9145 11.0543 12.5752 12.5 12.1449ZM2 3.5C2 4.32843 2.67157 5 3.5 5C4.32843 5 5 4.32843 5 3.5C5 2.67157 4.32843 2 3.5 2C2.67157 2 2 2.67157 2 3.5ZM12 15.5C12 14.6716 12.6716 14 13.5 14C14.3284 14 15 14.6716 15 15.5C15 16.3284 14.3284 17 13.5 17C12.6716 17 12 16.3284 12 15.5Z" transform="translate(4 3)" id="Combined-Shape" fill="#262626" fill-rule="evenodd" stroke="none" />
+    <path d="M3 6C4.65685 6 6 4.65685 6 3C6 1.34315 4.65685 0 3 0C1.34315 0 0 1.34315 0 3C0 4.65685 1.34315 6 3 6Z" transform="translate(16 2)" id="Notification" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
