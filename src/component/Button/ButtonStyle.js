@@ -5,13 +5,13 @@ const style = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         width: '100%',
-        height: '75%'
+        height: '20%'
     },
     buttonStyle: {
         alignItems: 'center',
         justifyContent: 'center',
         width: '90%',
-        height: '20%',
+        height: '100%',
         borderRadius: 12
     },
     buttonTextStyle: {

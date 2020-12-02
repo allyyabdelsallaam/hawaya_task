@@ -6,8 +6,8 @@ const style = StyleSheet.create({
     container: {
         alignItems: 'center',
         justifyContent: 'space-between',
-        width: '50%',
-        height: height / 12,
+        width: '80%',
+        height: height / 13,
         flexDirection: 'row',
     }
 })

@@ -8,13 +8,13 @@ const style = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: "#FFFFFF",
-        flex: 1
     },
     textStyleContainer: {
-        flex: 1,
+        // flex: 1,
         width: '85%',
-        height: '25%',
+        height: '15%',
         alignItems: 'flex-end',
+        justifyContent: 'center'
     },
     textStyle: {
         textAlign: 'left',
@@ -37,7 +37,7 @@ const style = StyleSheet.create({
         justifyContent: 'center',
         width: '100%',
         height: '70%',
-        flex: 1
+        // flex: 1
     }
 })
 

@@ -3,6 +3,8 @@ import { TouchableOpacity, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/Ionicons';
+import NotificationIcon from '../../../assets/Notifications';
+import NavIcon from '../../../assets/NavIcon';
 import Auth from '../../screens/Auth/Auth';
 import Verification from '../../screens/Verification/Verification';
 import Profile from '../../screens/Profile/Profile';
@@ -27,12 +29,12 @@ export function MainNavigation() {
                     ),
                     headerRight: () => (
                         <TouchableOpacity style={{ padding: 8, margin: 8 }}>
-                            <Icon name="ellipsis-horizontal-outline" size={30} />
+                            <NavIcon />
                         </TouchableOpacity>
                     ),
                     headerLeft: () => (
                         <TouchableOpacity style={{ padding: 8, margin: 8 }}>
-                            <Icon name="git-compare-outline" size={30} />
+                            <NotificationIcon />
                         </TouchableOpacity>
                     )
                 }} />

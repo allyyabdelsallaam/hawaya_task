@@ -7,8 +7,22 @@ import style from './CountryPickerStyle';
 export default function CountryTextInput({ countryCode, TextInputValue, onChangeText }) {
     return (
         <View style={style.container}>
-            <CountryPicker containerButtonStyle={{height: '100%', justifyContent: 'center'}} countryCode={countryCode} withCallingCodeButton={true} withCallingCode={true} withFlag={false} withEmoji={false} />
-            <TextInput style={{textAlignVertical: 'center', height: '100%', paddingVertical: 15}} placeholder="Phone Number" value={TextInputValue} onChangeText={onChangeText} />
+            <CountryPicker
+                containerButtonStyle={{ height: '90%', alignItems: 'center', justifyContent: 'center', borderBottomColor: '#A9A9A9', borderBottomWidth: 1 }}
+                countryCode={countryCode}
+                withCallingCodeButton={true}
+                //withCountryNameButton={true}
+                withCurrencyButton={true}
+                withFlagButton={false}
+                withCallingCode={true}
+                withFlag={false} withEmoji={false} />
+            <TextInput
+                style={{ width: '70%', borderBottomColor: '#A9A9A9', borderBottomWidth: 1 }}
+                placeholder="Phone Number"
+                keyboardType="number-pad"
+                returnKeyType="done"
+                value={TextInputValue}
+                onChangeText={onChangeText} />
         </View>
     )
 }

@@ -14,13 +14,6 @@ export default function Verification({ navigation, route }) {
             subtitle={`Code sent to ${phoneNum}`}
         >
             <CodeInput Navigation={navigation} />
-            {/* <View style={{alignItems: 'center', justifyContent: 'center', width: '100%', height: '50%'}}>
-                <Button
-                    //disabled={phoneNumberValue.length > 9 ? false : true}
-                    ButtonTitle={"Send Code"}
-                    onPress={() => navigation.replace("Verification")}
-                />
-            </View> */}
         </Background>
     )
 }
