@@ -17,7 +17,7 @@ export default function CountryTextInput({ countryCode, TextInputValue, onChange
                 withCallingCode={true}
                 withFlag={false} withEmoji={false} />
             <TextInput
-                style={{ width: '70%', borderBottomColor: '#A9A9A9', borderBottomWidth: 1 }}
+                style={{height: '100%', width: '70%', borderBottomColor: '#A9A9A9', borderBottomWidth: 1 }}
                 placeholder="Phone Number"
                 keyboardType="number-pad"
                 returnKeyType="done"
